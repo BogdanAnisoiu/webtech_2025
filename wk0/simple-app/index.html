@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Pagina de test</title>
+</head>
+<body>
+
+    hello
+        <h1>titlu</h1>
+        <h2>subtitlu</h2>
+            <p>hh</p>
+            <p>a &lt;     b &amp; </p>
+    <p><strong>ana</strong><em> are mere</em></p>
+    <p id="msg">Apasă butonul pentru mesaj.</p>
+      <button id="btn">Arată mesaj</button>
+    <script>
+        document.getElementById('btn').addEventListener('click',() => {
+            document.getElementById('msg').textContent='hello world!';
+        })
+    </script>
+
+</body>
+</html>
